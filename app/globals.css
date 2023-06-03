@@ -14,38 +14,6 @@
     }
   }
 
-  /* The navigation bar */
-.navbar {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed; 
-    top: 0; 
-    width: 100%; /* Full width */
-  }
-  
-  /* Links inside the navbar */
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
 
-  .dropdown-container {
-    text-align: right;
-    border: 1px solid #ccc;
-    position: relitive;
-    border-radius: 5px;
-    
-  }
   
  
