@@ -1,7 +1,7 @@
 export default function CardDisplay() {
     return (
         <div>
-            <h1>All cards</h1>
+            <h1>Hassan shootah was here</h1>
         </div>
     );
 }
