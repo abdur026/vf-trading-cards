@@ -1,0 +1,39 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider     = "mysql"
+  url          = env("DATABASE_URL")
+  relationMode = "prisma"
+}
+
+model User {
+  Id        Int        @id @default(autoincrement())
+  FirstName String
+  LastName  String
+  Email     String
+  GoogleId  Int?
+  UserCards UserCard[]
+}
+
+model Card {
+  Id        Int        @id @default(autoincrement())
+  Name      String
+  PageName  String
+  Image     String
+  Score     Int
+  Aura      Int
+  Skill     Int
+  Stamina   Int
+  UserCards UserCard[]
+}
+
+model UserCard {
+  UserId Int
+  CardId Int
+  User   User @relation(fields: [UserId], references: [Id])
+  Card   Card @relation(fields: [CardId], references: [Id])
+
+  @@id([UserId, CardId])
+}

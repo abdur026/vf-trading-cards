@@ -1,4 +1,3 @@
-
 export default function Home() {
   return (
     <div
@@ -14,20 +13,15 @@ export default function Home() {
         animation: "wave 5s infinite",
       }}
     >
-      <div class="main"></div>
+      <div className="main"></div>
       <div>
-     
-         <App/>
-       
+        <App />
       </div>
 
       <div>
-        <App1/>
+        <App1 />
       </div>
-      
     </div>
-
-
   );
 }
 
@@ -76,16 +70,3 @@ const App1 = () => {
     </div>
   );
 };
-
-
-
-
-
-
-
-
-
- 
-
-
-
