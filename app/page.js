@@ -1,17 +1,17 @@
 export default function Home() {
   return (
     <div
-      style={{
-        backgroundImage: "url(background.png)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        height: "100vh",
-        display: "flex",
-        flexDirection: "column", // Added to stack elements vertically
-        justifyContent: "center",
-        alignItems: "center",
-        animation: "wave 5s infinite",
-      }}
+    style={{
+      backgroundImage: "url(background.png)",
+      backgroundSize: "cover",
+      backgroundRepeat: "no-repeat",
+      height: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      animation: "wave 5s infinite",
+    }}
     >
       <div className="main"></div>
       <div>
@@ -70,3 +70,9 @@ const App1 = () => {
     </div>
   );
 };
+
+
+
+
+
+

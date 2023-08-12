@@ -4,7 +4,7 @@ import { Dialog } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-// import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
+import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 
 const navigation = [
   { name: "Home", href: "/" },
@@ -39,9 +39,19 @@ export default function Navbar() {
             ))}
           </nav>
           <div className="flex flex-1 items-center justify-end gap-x-8">
-            <p>Sign In</p>
+            <SignedIn>
+              {/* Mount the UserButton component */}
+              <UserButton afterSignOutUrl="/" />
+            </SignedIn>
+            <SignedOut>
+              {/* Signed out users get sign in button */}
+              <SignInButton mode="modal">
+                <button className="btn">Sign in</button>
+              </SignInButton>
+            </SignedOut>
           </div>
         </div>
+        {/* Mobile View ONLY */}
         <Dialog
           as="div"
           className="lg:hidden"
@@ -76,6 +86,18 @@ export default function Navbar() {
                   {item.name}
                 </a>
               ))}
+            </div>
+            <div className="flex flex-1 items-center justify-end gap-x-8">
+              <SignedIn>
+                {/* Mount the UserButton component */}
+                <UserButton afterSignOutUrl="/" />
+              </SignedIn>
+              <SignedOut>
+                {/* Signed out users get sign in button */}
+                <SignInButton mode="modal">
+                  <button className="btn">Sign in</button>
+                </SignInButton>
+              </SignedOut>
             </div>
           </Dialog.Panel>
         </Dialog>
