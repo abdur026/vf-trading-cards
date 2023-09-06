@@ -10,6 +10,12 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 
 - **Community Interaction**: Connect with fellow collectors, share your collection, and discuss your favorite cards. Gain insights into the world of card collecting from a global community of enthusiasts.
 
+
+## **Development Setup**
+- Node.js: [Download and Install Node.js](https://nodejs.org/en/download)
+- pnpm: [Download and Install pnpm](https://pnpm.io/installation)
+
+
 ## **Getting Started**
 
 To get started, follow these simple steps:
@@ -24,7 +30,6 @@ To get started, follow these simple steps:
 
 ```
 DATABASE_URL='Your_DATABASE_URL'
-
 
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= 'Your_Public_Clerk_Key'
 
@@ -42,25 +47,7 @@ Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Once the server is up and running, open [http://localhost:3000](http://localhost:3000) in your web browser to experience the platform.
 
-## **Learn More**
-
-To deepen your understanding of the platform and its capabilities, refer to the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - Learn about Next.js features and API, which power the core of our application.
-- [Learn Next.js](https://nextjs.org/learn) - Dive into an interactive Next.js tutorial to become proficient with the framework.
-
-You can check out the [ Next.js GitHub repository](https://github.com/vercel/next.js/) - Contribute to the Next.js project or provide feedback on our implementation. Your contributions are welcome!
-
-## Deploy on Vercel
-
-Are you ready to take your card collection tracker to the next level? Deploy your Next.js app effortlessly using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js. For detailed deployment instructions, please consult our [Next.js deployment documentation](https://nextjs.org/docs/deployment) 
-
-Join us in celebrating the fascinating world of card collecting and begin your journey with Veefriend Cards Collection Tracker today!
