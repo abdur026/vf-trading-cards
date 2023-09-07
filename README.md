@@ -12,7 +12,7 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 
 # Development Setup
 
-## **Tech Stack**
+### **Tech Stack**
 - Node.js
 - Next.js
 - Prisma
@@ -20,7 +20,7 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 - npm
 
 
-## **Installation**
+### **Installation**
 
 To get started, follow these simple steps:
 
@@ -51,7 +51,7 @@ CLERK_SECRET_KEY= 'Your_Secret_Clerk_Key'
 npx prisma migrate dev
 ```
 
-## Development 
+### Development 
 Run the development server:
 
 ```bash
