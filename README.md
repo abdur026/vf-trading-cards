@@ -10,6 +10,7 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 
 - **Community Interaction**: Connect with fellow collectors, share your collection, and discuss your favorite cards. Gain insights into the world of card collecting from a global community of enthusiasts.
 
+# Development Setup
 
 ## **Tech Stack**
 - Node.js
@@ -19,7 +20,7 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 - npm
 
 
-## **Getting Started**
+## **Installation**
 
 To get started, follow these simple steps:
 
@@ -50,7 +51,7 @@ CLERK_SECRET_KEY= 'Your_Secret_Clerk_Key'
 npx prisma migrate dev
 ```
 
-
+## Development 
 Run the development server:
 
 ```bash
