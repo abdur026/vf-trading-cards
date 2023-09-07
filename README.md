@@ -26,7 +26,7 @@ To get started, follow these simple steps:
 1. Clone this repository to your local machine.
 
 ```
- npm install
+git clone https://github.com/abdur026/vf-trading-cards.git
 ```
 
 2. copy the `.env.example` file and rename it to `.env`. Update the variables to appropriate values. 
