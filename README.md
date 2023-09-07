@@ -28,8 +28,13 @@ To get started, follow these simple steps:
 ```
 git clone https://github.com/abdur026/vf-trading-cards.git
 ```
+2. Install project dependencies: 
+```
+npm install
+```
 
-2. copy the `.env.example` file and rename it to `.env`. Update the variables to appropriate values. 
+
+3. Copy the `.env.example` file and rename it to `.env`. Update the variables to appropriate values. 
 
 ```
 DATABASE_URL='Your_DATABASE_URL'
@@ -39,7 +44,7 @@ NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY= 'Your_Public_Clerk_Key'
 CLERK_SECRET_KEY= 'Your_Secret_Clerk_Key'
 ```
 
-3. Run the migration using `prisma`
+4. Run the migration using `prisma`
 
 ```
 npx prisma migrate dev
