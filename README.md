@@ -11,9 +11,12 @@ Welcome to the Veefriend Cards Collection Tracker, your ultimate destination for
 - **Community Interaction**: Connect with fellow collectors, share your collection, and discuss your favorite cards. Gain insights into the world of card collecting from a global community of enthusiasts.
 
 
-## **Development Setup**
-- Node.js: [Download and Install Node.js](https://nodejs.org/en/download)
-- pnpm: [Download and Install pnpm](https://pnpm.io/installation)
+## **Tech Stack**
+- Node.js
+- Next.js
+- Prisma
+- Clerk
+- npm
 
 
 ## **Getting Started**
